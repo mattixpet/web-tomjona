@@ -59,7 +59,7 @@
             <div class="text"><a href="//littlemadra.blogspot.com/"><?php echo utf8_decode($littlemadra) ?><span></span></a></div>
           </li>
           <li id="projects">
-            <div class="text"><a href="//adobeslabs.com/projects/"><?php echo utf8_decode($projects) ?><span></span></a></div>
+            <div class="text"><a href="//adobeslabs.herokuapp.com/projects/"><?php echo utf8_decode($projects) ?><span></span></a></div>
           </li>
           <li id="groovymacgames">
             <div class="text"><a href="//www.groovymacgames.com/"><?php echo utf8_decode($groovymacgames) ?><span></span></a></div>
