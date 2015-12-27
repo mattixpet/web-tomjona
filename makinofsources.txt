@@ -1,0 +1,15 @@
+
+//http://stackoverflow.com/questions/21334839/applying-comic-sans-ms-font-style -- ot used now
+
+//http://stackoverflow.com/questions/12168527/batch-file-to-run-a-command-in-cmd-within-a-directory --- start command in open.bat
+
+http://stackoverflow.com/questions/16404582/writing-pure-html-in-jade --- gave me the idea for the php/jade | thing
+http://www.nairaland.com/430728/how-make-website-two-different --- languages
+http://www.sitepoint.com/bringing-unicode-to-php-with-portable-utf8/ --- unicode for php
+http://forum.wampserver.com/read.php?2,30847,30860 --- thank you!! "two locations"
+http://superuser.com/questions/309818/how-to-loop-through-folders-and-rename-extensions-in-a-batch-file --- really nice
+http://stackoverflow.com/questions/132799/how-can-you-echo-a-newline-in-batch-files --- echo newline
+http://stackoverflow.com/questions/15567809/batch-extract-path-and-filename-from-a-variable --- filename and extension
+//http://stackoverflow.com/questions/2143187/logical-operators-and-or-in-dos-batch --- no and in .bat :(
+http://www.robvanderwoude.com/ntif.php --- equ didn't work.. lss 1 worked
+http://www.favicon.co.uk/

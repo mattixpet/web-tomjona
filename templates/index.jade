@@ -1,0 +1,50 @@
+extends layout
+
+block social
+  div.social
+    include social.jade
+  include chat.jade
+block content
+  ul.mainlist
+    li#soundcloud
+      div.text
+        a(href="//soundcloud.com/u104805656/") 
+          <?php echo utf8_decode($soundcloud) ?>
+          // empty span to make entire item a link using css
+          // http://stackoverflow.com/questions/796087/make-a-div-into-a-link
+          span
+    li.old#oldyoutube
+      div.text
+        a(href="//www.youtube.com/pikachubutterfree/")
+          <?php echo utf8_decode($oldyoutube) ?>
+          span
+    li#littlemadra
+      div.text
+        a(href="//littlemadra.blogspot.com/")
+          <?php echo utf8_decode($littlemadra) ?>
+          span
+    li#projects
+      div.text
+        a(href="//adobeslabs.com/projects/")
+          <?php echo utf8_decode($projects) ?>
+          span
+    li#groovymacgames
+      div.text
+        a(href="//www.groovymacgames.com/")
+          <?php echo utf8_decode($groovymacgames) ?>
+          span
+    li#programming
+      div.text
+        a(href="//tildaemis.blogspot.com/")
+          <?php echo utf8_decode($programming) ?>
+          span
+    li#blog
+      div.text
+        a(href="//decantabat.blogspot.com/")
+          <?php echo utf8_decode($blog) ?>
+          span
+    li.old#iowa
+      div.text
+        a(href="//matthias-i-iowa.blogspot.com/")
+          <?php echo utf8_decode($iowa) ?>
+          span

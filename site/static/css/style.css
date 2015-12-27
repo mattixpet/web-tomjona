@@ -1,0 +1,359 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1;
+  color: #000;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+  font-family: Helvetica, sans-serif;
+  color: #ff0;
+}
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 1%;
+}
+div.social {
+  width: 128px;
+  height: 64px;
+  margin-right: 1%;
+}
+div.social ul li.twitter a {
+  background-image: url("../img/social/twitter.png");
+}
+div.social ul li.facebook a {
+  background-image: url("../img/social/facebook.png");
+}
+div.social ul li.linkedin a {
+  background-image: url("../img/social/linkedin.png");
+}
+div.social ul li.instagram a {
+  background-image: url("../img/social/instagram.png");
+}
+div.social ul li.email a {
+  background-image: url("../img/social/email.png");
+}
+div.social ul li.googleplus a {
+  background-image: url("../img/social/googleplus.png");
+}
+div.social ul li.github a {
+  background-image: url("../img/social/github.png");
+}
+div.social ul li.skype a {
+  background-image: url("../img/social/skype.png");
+}
+div.social ul li a {
+  width: 32px;
+  height: 32px;
+}
+div.social,
+div.translate {
+  float: right;
+  display: block;
+}
+div.social ul li a,
+div.translate ul li a {
+  opacity: 0.9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: alpha(opacity=90);
+  float: left;
+  text-indent: 110%;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+div.social ul li a:hover,
+div.translate ul li a:hover {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+div.translate {
+  width: 128px;
+  height: 24px;
+}
+div.translate ul li.is a {
+/* http://upload.wikimedia.org/wikipedia/commons/0/09/Light_Blue_Flag_of_Iceland.svg */
+  background-image: url("../img/trans/is.svg");
+}
+div.translate ul li.en a {
+/* http://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg */
+  background-image: url("../img/trans/en.svg");
+}
+div.translate ul li a {
+  float: right;
+  width: 40px;
+  height: 24px;
+  background-repeat: no-repeat;
+  -webkit-background-size: 40px 24px;
+  -moz-background-size: 40px 24px;
+  background-size: 40px 24px;
+}
+div.socialcontact > div.social {
+  width: 256px;
+  height: 128px;
+  float: none;
+  margin: inherit;
+}
+div.socialcontact > div.social li a {
+  width: 64px;
+  height: 64px;
+}
+ul.mainlist li:hover {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+ul.mainlist a:hover {
+  color: #ff0;
+}
+ul.mainlist li {
+  opacity: 0.95;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+  filter: alpha(opacity=95);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 150px;
+/* http://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+}
+ul.mainlist li .text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 4em;
+  text-shadow: 3px 3px 1px #7f8000;
+  letter-spacing: 0.1em;
+}
+ul.mainlist li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+/* edit: added z-index */
+  z-index: 1;
+/* edit: fixes overlap error in IE7/8, 
+         make sure you have an empty gif */
+  background-image: url("../img/empty.gif");
+}
+ul.mainlist #soundcloud {
+  background-image: url("../img/soundcloud.png");
+}
+ul.mainlist #projects {
+  background-image: url("../img/projects.png");
+}
+ul.mainlist #programming {
+  background-image: url("../img/programming.png");
+}
+ul.mainlist #groovymacgames {
+  background-image: url("../img/groovymacgames.png");
+}
+ul.mainlist #blog {
+  background-image: url("../img/blog.png");
+}
+ul.mainlist #oldyoutube {
+  background-image: url("../img/oldyoutube.png");
+}
+ul.mainlist #iowa {
+  background-image: url("../img/iowa.png");
+}
+ul.mainlist #littlemadra {
+  background-image: url("../img/littlemadra.png");
+}
+#chat {
+  padding: 0 0.1em 0 0;
+  width: 15%;
+  float: right;
+  clear: both;
+  margin-top: 2em;
+}
+#chat #chatcontent {
+  margin: 0.2em 0 0.2em 0;
+  border-top: 1px solid #ff0;
+  border-bottom: 1px solid #ff0;
+  height: 200px;
+  overflow-y: scroll;
+}
+#chat input[type="text"] {
+  width: 50px;
+  background: #000;
+  color: #ff0;
+}
+#chat input[type="button"] {
+  background-color: #000;
+  color: #ff0;
+}
+.smallwrap {
+  margin: 5% 1% 0 0.5%;
+}
+footer {
+  margin: 2em auto 0.5em auto;
+  max-width: 800px;
+  height: 1.2em;
+}
+footer .container > * {
+  padding: 0 3% 0 0.5%;
+}
+footer .container > .translate {
+  padding: 0;
+}
+a {
+  color: #ff0;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff0;
+}
+.hidden {
+  display: none;
+}
+/* media queries */
+@media only screen and (max-width: 500px) {
+  ul.mainlist li .text {
+    font-size: 3em;
+    letter-spacing: 0.09em;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  div.social {
+/* turn the | | | | social bar to
+       | |
+       | |
+       | | */
+    width: 64px;
+    height: 128px;
+  }
+  div.socialcontact > div.social {
+    width: 256px;
+    height: 128px;
+    float: none;
+    margin: inherit;
+  }
+  div.socialcontact > div.social li a {
+    width: 64px;
+    height: 64px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  div.social {
+    float: none;
+    width: 256px;
+    height: 32px;
+    margin: 0 auto;
+  }
+  div.socialcontact > div.social {
+    width: 256px;
+    height: 128px;
+    float: none;
+    margin: inherit;
+  }
+  div.socialcontact > div.social li a {
+    width: 64px;
+    height: 64px;
+  }
+}
+@media only screen and (max-width: 1234px) {
+  #chat {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+  }
+}

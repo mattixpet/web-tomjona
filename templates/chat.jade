@@ -1,0 +1,9 @@
+//- chat widget
+div#chat
+  //-p <?php echo utf8_decode($chatheader) ?>
+  div#chatcontent
+  label(for="chatname") <?php echo utf8_decode($chatname) ?>
+    input#chatname(type="text")
+  label(for="chatmsg") <?php echo utf8_decode($chatmsg) ?>
+    input#chatmsg(type="text")
+  <?php echo "<input type=\"button\" id=\"chatsend\" value=\"".utf8_decode($chatsend)."\"></input>"; ?>
