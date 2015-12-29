@@ -21,5 +21,6 @@
   * Stylus (0.49.3)
   * Jade (1.8.2)
 * I wrote an article about the first steps of this site, creating the framework, [check it out](http://tildaemis.blogspot.is/2015/04/a-small-website-with-two-languages.html).
+* A lot of the content on my site isn't very active these days, the blogs mainly.
 
 ###### Written in 2015.
