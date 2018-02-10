@@ -7,7 +7,6 @@
   * Simple webchat/shoutbox I wrote myself in pure javascript (uses php to store logs on server).
   * English/Icelandic translations for the page.
   * About, contact, resume links.
-* Check out the actual live site at [dmdcb.com](http://dmdcb.com).
 * Uses jade, stylus and php together.
 
 ## Usage:
